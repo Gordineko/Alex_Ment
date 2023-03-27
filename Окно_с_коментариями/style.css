@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #cfcfcf;
+  font-family: "Arial";
+}
+.comment_card {
+  max-width: 489px;
+  padding: 26px 7px 34px 20px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+.profile {
+  padding-left: 9px;
+
+  display: flex;
+}
+.profile_txt {
+  padding-top: 7px;
+  margin-left: 10px;
+  transform: translateX(-45px);
+}
+.profile_txt h2 {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+.profile_txt span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+}
+.avatar_image {
+  z-index: 10;
+}
+.avatar_image img {
+  border-radius: 100px;
+}
+.about_me {
+  background: #fffbc8;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 7px 118px 7px 45px;
+
+  z-index: 0;
+  white-space: nowrap;
+}
+.data_person {
+  padding-left: 47px;
+}
+.about_me span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+.services {
+  max-width: 318px;
+  margin-left: 130px;
+}
+.services_title span {
+  margin-right: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.services_title {
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #dadada;
+}
+.statistics {
+  padding-bottom: 9px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #dadada;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+}
+.statistics .num {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333333;
+}
+.booking {
+  margin: 0 0 6px 6px;
+
+  max-width: 269px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+.booking::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  z-index: -1;
+  width: 219px;
+  border-left: 2px solid rgb(96, 126, 83, 0.3);
+  background: #b1e19b;
+  border-radius: 0px 3px 3px 0px;
+}
+.tours {
+  margin: 0 0 6px 6px;
+  max-width: 269px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+.tours::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  z-index: -1;
+  width: 54px;
+  border-left: 2px solid rgb(84, 113, 124, 0.5);
+  background: #ace2f8;
+  border-radius: 0px 3px 3px 0px;
+}
+.hotels {
+  margin: 0 0 6px 6px;
+
+  max-width: 269px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+.hotels::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  z-index: -1;
+  width: 36px;
+  border-left: 2px solid rgb(84, 113, 124, 0.5);
+  background: #ace2f8;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.total {
+  max-width: 276px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.total span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-bottom: 13px;
+}
+.rev_txt {
+  display: flex;
+}
+.rev_txt h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #333333;
+  margin-right: 8px;
+}
+.rev_txt a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #005da1;
+}
+
+.reviews .num {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.rev_stat {
+  display: flex;
+}
+.rev_stat img {
+  margin-right: 4px;
+}
+.like {
+  margin-right: 18px;
+}
+.like img {
+  width: 12.99px;
+  height: 10.75px;
+}
+.comm img {
+  transform: translateY(3px);
+  width: 13px;
+  height: 12.75px;
+}
+.like,
+.comm {
+  display: flex;
+  align-items: center;
+}
+.comment {
+  margin-bottom: 17px;
+}
+.comment_owner {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+
+.comment_date {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  color: #808080;
+  margin-left: 8px;
+}
+.comment_content {
+  position: relative;
+  width: 450px;
+  padding: 11px 39px 11px 20px;
+  background: #f2fbff;
+  border: 1px solid #c4cbcf;
+  box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+}
+
+.arrow {
+  position: absolute;
+  top: -8.7px;
+  left: 21px;
+  width: 9px;
+  height: 9px;
+  border-left: 1px solid #c4cbcf;
+  clip-path: polygon(0 2%, 0% 100%, 100% 100%);
+  background: #f2fbff;
+}
+.comment_content::after {
+  content: "";
+  position: absolute;
+  height: 0.9px;
+  background: #c4cbcf;
+  width: 12px;
+  top: -5px;
+  left: 19.5px;
+  transform: rotateZ(45deg);
+}
+.form_box {
+  text-align: center;
+}
+.form input {
+  width: 447px;
+  height: 63px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  margin-bottom: 23px;
+  transform: translateX(-5px);
+}
+.form button {
+  font-family: "PT Sans", sans-serif;
+  padding: 12px 45px;
+  background: #fdd639;
+  border-radius: 23px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}

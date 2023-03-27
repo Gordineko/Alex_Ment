@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+body {
+  font-family: "Alkatra", cursive;
+}
+.box {
+  position: absolute;
+  width: 1000px;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.num_box {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px;
+}
+.num_btn {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 20px;
+  border-radius: 40px;
+}
